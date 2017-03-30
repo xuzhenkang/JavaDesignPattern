@@ -7,7 +7,7 @@ public class Wrapper implements Targetable {
 		super();
 		this.source = source;
 	}
-
+ 
 	@Override
 	public void method1() {
 		System.out.println("This is the targetable method!");

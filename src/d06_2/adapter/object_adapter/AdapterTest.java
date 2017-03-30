@@ -5,7 +5,7 @@ public class AdapterTest {
 		Source source = new Source();
 		Targetable target = new Wrapper(source);
 		target.method1();
-		target.method2();
+		target.method2(); 
 	}
 }
 
