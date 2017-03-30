@@ -8,9 +8,9 @@ public interface Iterator {
 	// 后移
 	public Object next();
 	
-	// 判断是否有下�?�?
+	// 判断是否有下元素
 	public boolean hasNext();
 	
-	// 取得第一个元�?
+	// 取得第一个元素
 	public Object first();
 }

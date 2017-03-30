@@ -3,9 +3,9 @@ package d16.iterator;
 public interface Collection {
 	public Iterator iterator();
 	
-	/*鍙栧緱闆嗗悎鍏冪礌*/
+	/*取得集合元素*/
 	public Object get(int i);
 	
-	/*鍙栧緱闆嗗悎澶у皬*/
+	/*取得集合大小*/
 	public int size();
 }

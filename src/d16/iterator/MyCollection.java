@@ -15,7 +15,7 @@ public class MyCollection implements Collection {
 	public Object get(int i) {
 		return string[i];
 	}
-
+ 
 	@Override
 	public int size() {
 		return string.length;

@@ -33,7 +33,7 @@ public class MyIterator implements Iterator {
 			return false;
 		}
 	}
-
+ 
 	@Override
 	public Object first() {
 		pos = 0;
