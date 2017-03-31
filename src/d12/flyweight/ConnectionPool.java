@@ -15,6 +15,7 @@ public class ConnectionPool {
 	private String driverClassName = "com.mysql.jdbc.Driver";
 
 	private int poolSize = 100;
+	@SuppressWarnings("unused")
 	private static ConnectionPool instance = null;
 	Connection conn = null;
 
